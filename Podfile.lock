@@ -1,0 +1,40 @@
+PODS:
+  - JSONModel (1.7.0)
+  - KYMVVM (1.0.1):
+    - JSONModel (~> 1.7.0)
+    - Masonry (~> 1.1.0)
+    - MJRefresh (~> 3.1.15.6)
+    - ReactiveObjC (~> 3.1.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - KYMVVM (from `https://github.com/ObjClan/KYMVVM.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  KYMVVM:
+    :git: https://github.com/ObjClan/KYMVVM.git
+
+CHECKOUT OPTIONS:
+  KYMVVM:
+    :commit: 7f52cdb28488553e03d619b02be7bc368f36d008
+    :git: https://github.com/ObjClan/KYMVVM.git
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  KYMVVM: 022fffd4f8cb1b1a0aedbd722851c657534a0b23
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 3c0942ff1fb6f95787ba690d121404ef74426280
+
+COCOAPODS: 1.6.0.beta.2
